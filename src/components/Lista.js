@@ -36,7 +36,7 @@ export default class Lista extends Component {
                         {
                             state.map(product => (
                                 <tr key={product.id}>
-                                    <td><img src={product.imagen} width="100" height="100" /></td>
+                                    <td><img src={product.imagen} width="100" height="100" alt=""/></td>
                                     <td>{product.product}</td>
                                     <td>{product.descripcion}</td>
                                 </tr>
